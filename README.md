@@ -1,5 +1,5 @@
 # 0x11. C-printf
-A remake of the printf function by [Penny Ng'etuny](https://github.com/Peinah) for ALX-Holberton Software Engineering project.
+A remake of the printf function by [Penny Ng'etuny](https://github.com/Peinah) and Jeff Osundwa for ALX-Holberton Software Engineering project.
 ## Requirements
 
 - Allowed editors: vi, vim, emacs
