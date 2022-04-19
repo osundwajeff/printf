@@ -53,4 +53,15 @@ S : prints the string.
 Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters)
 
 ###Task 8:
+Handle the following flag characters for non-custom conversion specifiers:
++
+space
+#
+
+###Task 9:
+Handle the following length modifiers for non-custom conversion specifiers:
+l
+h
+Conversion specifiers to handle: d, i, u, o, x, X
+
 
