@@ -64,4 +64,5 @@ l
 h
 Conversion specifiers to handle: d, i, u, o, x, X
 
-
+###Task 10:
+Handle the field width for non-custom conversion specifiers.
