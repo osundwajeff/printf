@@ -30,39 +30,39 @@ File man_3_printf: Contains a manpage for the printf function.
 Handling of  the following custom conversion specifiers:
 b: the unsigned int argument is converted to binary
 
-###Task 4:
+### Task 4:
 Handles the following conversion specifiers: u,o,x,X.
 You don’t have to handle the flag characters
 You don’t have to handle field width
 You don’t have to handle precision
 You don’t have to handle the length modifiers
 
-###Task 5:
+### Task 5:
 To use a local buffer of 1024 chars in order to call write as little as possible.
 
-###Task 6:
+### Task 6:
 Handle the following conversion specifier: p.
 You don’t have to handle the flag characters
 You don’t have to handle field width
 You don’t have to handle precision
 You don’t have to handle the length modifiers
 
-###Task 7:
+### Task 7:
 Handling  the following custom conversion specifier:
 S : prints the string.
 Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters)
 
-###Task 8:
+### Task 8:
 Handle the following flag characters for non-custom conversion specifiers:
 +
 space
 #
 
-###Task 9:
+### Task 9:
 Handle the following length modifiers for non-custom conversion specifiers:
 l
 h
 Conversion specifiers to handle: d, i, u, o, x, X
 
-###Task 10:
+### Task 10:
 Handle the field width for non-custom conversion specifiers.
