@@ -26,3 +26,6 @@ It handles the conversion specifiers d and i.
 
 File man_3_printf: Contains a manpage for the printf function.
 
+### Task 3:
+Handling of  the following custom conversion specifiers:
+b: the unsigned int argument is converted to binary
