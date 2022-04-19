@@ -15,6 +15,15 @@ A remake of the printf function by [Penny Ng'etuny](https://github.com/Peinah) a
 - All your header files should be include guarded
 - Note that we will not provide the _putchar function for this project
 
+ ---
+ ## Example
+```
+#include "main.h"
+_printf("The %s won the Finals %d times", "Warriors", 6);
+$ The Warriors won the Finals 6 times
+``` 
+---
+
 ### Task 0: 
 A function that produces output according to a format.
 Returns: the number of characters printed (excluding the null byte used to end output to strings)
