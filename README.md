@@ -53,7 +53,9 @@ It handles the conversion specifiers `d` and `i`.
 
 - File `man_3_printf`: Contains a manpage for the printf function.
 - To access the manpage in you terminal use:
-```$ man ./man_3_printf```
+```
+$ man ./man_3_printf
+```
 
 ### Task 3:
 - Handling of  the following custom conversion specifiers:
