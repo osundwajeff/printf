@@ -56,9 +56,9 @@ $ The Warriors won the Finals 6 times
 
 ### Task 0: 
 A function that produces output according to a `format`.
-Returns: the number of characters printed (excluding the null byte used to end output to strings)
-write output to stdout, the standard output stream
-`format` is a character string. The format string is composed of zero or more directives.
+- Returns: the number of characters printed (excluding the null byte used to end output to strings)
+- write output to stdout, the standard output stream
+- `format` is a character string. The format string is composed of zero or more directives.
 ---
 
 ### Task 1:
