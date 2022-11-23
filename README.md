@@ -16,6 +16,7 @@ A remake of the printf function by [Penny Ng'etuny](https://github.com/Peinah) a
 - Note that we will not provide the `_putchar` function for this project
 
  ---
+ 
 ## Authorized functions and macros:
 -   `write` (man 2 write)
 -   `malloc` (man 3 malloc)
@@ -26,6 +27,7 @@ A remake of the printf function by [Penny Ng'etuny](https://github.com/Peinah) a
 -   `va_arg` (man 3 va_arg)
  
 ---
+
 ## Example
 ```
 #include "main.h"
@@ -58,6 +60,7 @@ Returns: the number of characters printed (excluding the null byte used to end o
 write output to stdout, the standard output stream
 `format` is a character string. The format string is composed of zero or more directives.
 ---
+
 ### Task 1:
 It handles the conversion specifiers `d` and `i`.
 
@@ -67,10 +70,12 @@ It handles the conversion specifiers `d` and `i`.
 $ man ./man_3_printf
 ```
 ---
+
 ### Task 3:
 - Handling of  the following custom conversion specifiers:
 `b`: the `unsigned int` argument is converted to binary
 ---
+
 ### Task 4:
 Handles the following conversion specifiers: `u`,`o`,`x`,`X`.
 - You don’t have to handle the flag characters
@@ -78,9 +83,11 @@ Handles the following conversion specifiers: `u`,`o`,`x`,`X`.
 - You don’t have to handle precision
 - You don’t have to handle the length modifiers
 ---
+
 ### Task 5:
-To use a local buffer of 1024 chars in order to call `write` as little as possible.
+- To use a local buffer of 1024 chars in order to call `write` as little as possible.
 ---
+
 ### Task 6:
 Handle the following conversion specifier: `p`.
 - You don’t have to handle the flag characters
@@ -88,27 +95,32 @@ Handle the following conversion specifier: `p`.
 - You don’t have to handle precision
 - You don’t have to handle the length modifiers
 ---
+
 ### Task 7:
 Handling  the following custom conversion specifier:
 - `S` : prints the string.
 - Non printable characters `(0 < ASCII value < 32 or >= 127)` are printed this way: `\x`, followed by the ASCII code value in hexadecimal (upper case - always 2 characters)
 ---
+
 ### Task 8:
 Handle the following flag characters for non-custom conversion specifiers:
 - `+`
 - `space`
 - `#`
 ---
+
 ### Task 9:
 Handle the following length modifiers for non-custom conversion specifiers:
 - `l`
 - `h`
 - Conversion specifiers to handle: `d`, `i`, `u`, `o`, `x`, `X`
 ---
+
 ### Task 10:
 Handle the field width for non-custom conversion specifiers.
 - Specifics: `-`
 ---
+
 ### Task 11:
 Handle the following custom conversion specifier:
 - `r` : prints the reversed string
